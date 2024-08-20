@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Inside Object</title>
+</head>
+<body>
+    <script>
+        // Inside Object//
+
+        // let product = {
+        //     company: 'Mango',
+        //     price: 763,
+        //     item_name: 'T-shirt',
+        //     displayPrice: function(){
+        //         console.log(`Price of the product is ₹${this.price}`)
+        //     }
+        // }
+        // product.displayPrice();
+
+        // Object Reference//
+
+        let x = {num: 5};
+        let y = x;
+        console.log(`x=${x.num}, y=${y.num}`);
+        x.num = 8;
+        console.log(`x=${x.num}, y=${y.num}`);
+    </script>
+</body>
+</html>
